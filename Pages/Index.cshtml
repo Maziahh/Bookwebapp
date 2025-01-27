@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To BookHaven!</h1>
+    <p class="lead">Discover your next favorite book today. Dive into a world of adventure, mystery, and knowledge!</p>
+    <a href="@Url.Page("/Books/Index")" class="btn btn-primary btn-lg">Explore Books</a>
+
+</div>
+<div class="col-sm-12 col-md-4 mb-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Book Title 1</h5>
+            <p class="card-text">A thrilling adventure novel that takes you on an unforgettable journey.</p>
+            <a href="@Url.Page("/Books/Index")" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+</div>
+<div class="col-sm-12 col-md-4 mb-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Book Title 2</h5>
+            <p class="card-text">An insightful self-help book to empower your personal growth.</p>
+            <a href="@Url.Page("/Books/Index")" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+</div>
+
