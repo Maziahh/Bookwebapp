@@ -1,5 +1,6 @@
-To Launch 
-Make Sure you update Visual Studio Code to the latest version
+**To Launch **
+
+1. Make Sure you update Visual Studio Code to the latest version
 
 2. Clone the Repository:
 From the start screen of Visual Studio (or from the File menu), click on Clone a repository.
@@ -14,3 +15,6 @@ Click Clone.
 4. Open the Project:
 Once the cloning is complete, Visual Studio will open the project automatically.
 If Visual Studio doesn’t automatically open the solution, you can go to File > Open > Project/Solution, and navigate to the cloned folder to open the .sln (solution) file.
+
+**Purpose**
+Created a .Net application which manages
