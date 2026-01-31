@@ -17,4 +17,4 @@ Once the cloning is complete, Visual Studio will open the project automatically.
 If Visual Studio doesn’t automatically open the solution, you can go to File > Open > Project/Solution, and navigate to the cloned folder to open the .sln (solution) file.
 
 **Purpose**
-Created a .Net application which manages
+Created a .Net application which manages a database of books with relation to its relevant author and dates
